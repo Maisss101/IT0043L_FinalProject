@@ -1,0 +1,20 @@
+@media(prefers-reduce-motion) {
+    [class*="animate"] {
+        transition: none;
+    }
+}
+
+[class*="animate-hidden"] {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transform: translateZ(-100%);
+    transition: 0.5s ease-in-out;
+}
+
+[class*="animate-show"] {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transform: translateZ(0);
+}

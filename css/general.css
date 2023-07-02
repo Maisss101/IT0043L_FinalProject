@@ -1,0 +1,26 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+}
+
+[class*="btn-empty"] {
+    border: none;
+}
+
+nav [class*="btn"] {
+    border: none;
+}
+
+[class*="btn-blur"] {
+    border: none;
+}
+
+[class*="btn-blur"]:hover {
+    color: white;
+    background: none;
+    text-decoration: underline;
+}

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+        <title>Chronos: Shop</title>
+        <link rel="shortcut icon" type="x-icon" href="svg/icon.svg">
+        <link rel="stylesheet" href="css/shop.css">
+        <link rel="stylesheet" href="css/general.css">
+
+        <!-- Entrance Animation -->
+        <link rel="stylesheet" href="css/animate.css">
+        <script defer src="js/animate.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-center">
+            <div class="container-fluid m-0 pt-1 pb-1">
+                <a href="index.html" class="navbar-brand">
+                    <img src="svg/logo.svg" alt="" height="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="index.html">
+                                <button type="button" class="btn btn-outline-light">Home</button>
+                            </a>
+                        </li><!-- Example single danger button -->
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All Products</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#tshirts">T-Shirts</a>
+                            <a class="dropdown-item" href="#bottoms">Bottoms</a>
+                            <a class="dropdown-item" href="#stickers">Stickers</a>
+                            <a class="dropdown-item" href="#headwears">Headwears</a>
+                          </div>
+                        </div>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="about.html">
+                                <button type="button" class="btn btn-outline-light">About</button>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#contacts">
+                                <button type="button" class="btn btn-outline-light">Contact</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="masthead container-fluid p-0">
+                <div class="color-overlay container-fluid d-flex justify-content-center align-items-center text-white">
+                    <div class="text-center">
+                        <p class="title">All Products</p>
+                        <p class="subtitle">credits to their respective owners</p>
+                    </div>
+                </div>
+        </div>
+        <main class="container p-0 mt-4">
+            <div id="tshirts" class="h1 col-12 p-0 label animate-hidden">T-Shirts</div>
+            <div id="tshirts_items" class="row d-flex">
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt1.png', 'ATHLETICS TEE - ROYAL BLUE', '900.00', 'https://dbtkco.com/products/athletics-tee-royal-blue')">
+                        <img class="img-fluid" src="products/shirt1.png" alt="products/shirt1.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt2.png', 'ATHLETICS TEE - BROWN', '900.00', 'https://dbtkco.com/products/athletics-tee-brown')">
+                        <img class="img-fluid" src="products/shirt2.png" alt="products/shirt2.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt3.png', 'KALEIDOSCOPE TEE - BLACK', '950.00', 'https://dbtkco.com/collections/t-shirt/products/kaleidoscope-tee-black')">
+                        <img class="img-fluid" src="products/shirt3.png" alt="products/shirt3.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt4.png', 'KALEIDOSCOPE TEE - CREAM', '950.00', 'https://dbtkco.com/products/kaleidoscope-tee-cream')">
+                        <img class="img-fluid" src="products/shirt4.png" alt="products/shirt4.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt5.png', 'PICKUP CREW TEE IN BLACK (BREW COMMUNITY)', '950.00', 'https://dbtkco.com/collections/t-shirt/products/pickup-crew-tee-in-black-brew-community')">
+                        <img class="img-fluid" src="products/shirt5.png" alt="products/shirt5.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/shirt6.png', 'PICKUP CREW TEE IN OAT (KIOSK TEE)', '950.00', 'https://dbtkco.com/collections/t-shirt/products/pickup-crew-tee-in-oat-kiosk-tee')">
+                        <img class="img-fluid" src="products/shirt6.png" alt="products/shirt6.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6  animate-hidden">
+                    <button class="p-0 btn btn-outline-light text-dark alloc" type="button" onclick="window.open('https://dbtkco.com/collections/t-shirt', '_blank')">
+                        <div class="container-fluid p-0 d-flex justify-content-center align-items-center">
+                            <span class="h3 m-0">See more</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id="bottoms" class="h1 col-12 p-0 label animate-hidden">Bottoms</div>
+            <div class="row">
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot1.png', 'DBTK LACE SHORTS - BLACK', '1,100.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-lace-shorts-black')">
+                        <img class="img-fluid" src="products/bot1.png" alt="products/bot1.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot2.png', 'DBTK LACE SHORTS - CREAM', '1,100.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-lace-shorts-cream')">
+                        <img class="img-fluid" src="products/bot2.png" alt="products/bot2.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot3.png', 'DBTK TWEED SHORTS - BLACK', '1,100.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-tweed-shorts-black')">
+                        <img class="img-fluid" src="products/bot3.png" alt="products/bot3.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot4.png', 'DBTK TWEED SHORTS - BROWN', '1,100.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-tweed-shorts-brown')">
+                        <img class="img-fluid" src="products/bot4.png" alt="products/bot4.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot5.png', 'DBTK WAFFLE PANTS - BROWN', '1,200.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-waffle-pants-brown')">
+                        <img class="img-fluid" src="products/bot5.png" alt="products/bot5.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/bot6.png', 'DBTK WAFFLE PANTS - KHAKI', '1,200.00', 'https://dbtkco.com/collections/bottoms/products/dbtk-waffle-pants-khaki')">
+                        <img class="img-fluid" src="products/bot6.png" alt="products/bot6.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 animate-hidden">
+                    <button class="p-0 btn btn-outline-light text-dark alloc" type="button" onclick="window.open('https://dbtkco.com/collections/t-shirt', '_blank')">
+                        <div class="container-fluid p-0 d-flex justify-content-center align-items-center">
+                            <span class="h3 m-0">See more</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id="stickers" class="h1 col-12 p-0 label animate-hidden">Stickers</div>
+            <div class="row">
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/sticker1.png', 'PICKUP CREW by DBTK Sticker Pack', '300.00', 'https://dbtkco.com/collections/sticker/products/pickup-crew-by-dbtk-sticker-pack')">
+                        <img class="img-fluid" src="products/sticker1.png" alt="products/sticker1.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/sticker2.png', 'DBTK FAST FLIGHT STICKER PACK', '300.00', 'https://dbtkco.com/collections/sticker/products/dbtk-fast-flight-sticker-pack')">
+                        <img class="img-fluid" src="products/sticker2.png" alt="products/sticker2.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn btn-outline-light text-dark alloc-lg" type="button" onclick="window.open('https://dbtkco.com/collections/sticker', '_blank')">
+                        <div class="container-fluid d-flex justify-content-center align-items-center">
+                            <span class="h3">See more</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id="headwears" class="h1 col-12 p-0 label animate-hidden">Headwears</div>
+            <div class="row">
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/cap1.png', 'PICKUP CREW CAP (OAT/GREEN)', '1,100.00', 'https://dbtkco.com/collections/toys/products/pickup-crew-cap-oat-green')">
+                        <img class="img-fluid" src="products/cap1.png" alt="products/cap1.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn" type="button" onclick="showViewer('products/cap2.png', 'PICKUP CREW CAP (OAT/BLACK)', '1,100.00', 'https://dbtkco.com/collections/toys/products/pickup-crew-cap-oat-black')">
+                        <img class="img-fluid" src="products/cap2.png" alt="products/cap2.png">
+                    </button>
+                </div>
+                <div class="col-xl-3 col-sm-10 col-md-6 col-lg-4 animate-hidden">
+                    <button class="p-0 btn btn-outline-light text-dark alloc-lg" type="button" onclick="window.open('https://dbtkco.com/collections/toys', '_blank')">
+                        <div class="container-fluid d-flex justify-content-center align-items-center p-0">
+                            <span class="h3">See more</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <div id="contacts" class="justify-content-center mt-5 animate-hidden">
+            <div class="container text-center" style="min-width: 320px; max-width: 500px;">
+                <div class="row mb-4">
+                    <div class="col"></div>
+                    <div class="col">
+                        <a href="mailto:jkpbecaro@gmail.com?subject=Final_Project">
+                            <img src="svg/gmail.svg" alt="" height="40">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://github.com/Maisss101" target="_blank">
+                            <img src="svg/github.svg" alt="" height="40">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.facebook.com/jkpBecaro06/" target="_blank">
+                            <img src="svg/facebook.svg" alt="" height="40">
+                        </a>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col">
+                        This website is for educational purpose only. Most of the resources (svg, icon, png) are not mine and belong to their respective owners. Also, this site is inspired by <b><a class="text-dark" href="https://dbtkco.com"> dbtkco.com</a></b>.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-light text-muted justify-content-center mt-4 pt-3">
+            <div class="container text-center" style="min-width: 320px; max-width: 500px;">
+                <div class="row pb-3">
+                    <div class="col animate-hidden">
+                        Becaro, Jovan Kashmir P. <br>
+                        BSIT-DW02
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="viewer" class="container-fluid fixed-top d-none justify-content-center align-items-center p-0 m-0">
+            <div class="row">
+                <div class="col-md m-0 p-0 d-flex justify-content-center align-items-center">
+                    <img src="products/shirt1.png" alt="products/shirt1.png" id="viewerImg">
+                </div>
+                <div class="col-md p-0 m-0">
+                    <div id="viewerBody" class="container-fluid bg-light p-0">
+                        <div id="viewerTitle" class="pl-3 pr-3 pt-3">PICKUP CREW TEE IN OAT ("KIOSK" TEE)</div>
+                        <div id="viewerPrice" class="pl-3 pr-3 pt-2 pb-5">Php 950.00</div>
+                        <div id="viewerControls" class="d-flex flex-column justify-content-between pl-3 pr-3">
+                            <button id="viewerGo" type="button" class="btn btn-dark pr-3">Go to DBTK</button><br>
+                            <button type="button" class="btn btn-outline-dark" onclick="hideViewer()">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Viewer Script-->
+        <script>
+            function goViewer(link){
+                window.open(link, '_blank');
+                hideViewer();
+            }
+
+            function hideViewer(){
+                let object = document.getElementById("viewer");
+                object.classList.remove("d-flex");
+                object.classList.add("d-none");
+            }
+
+            function showViewer(src, title, price, link) {
+                document.getElementById("viewerImg").setAttribute("src", src);
+                document.getElementById("viewerImg").setAttribute("alt", src);
+                document.getElementById("viewerTitle").innerHTML = title;
+                document.getElementById("viewerPrice").innerHTML = "Php " + price;
+                document.getElementById("viewerGo").setAttribute("onclick", "goViewer('" +  link + "')");
+                document.getElementById("viewer").classList.remove("d-none");
+                document.getElementById("viewer").classList.add("d-flex");
+            }
+        </script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
